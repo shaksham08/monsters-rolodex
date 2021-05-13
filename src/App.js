@@ -34,7 +34,7 @@ class App extends Component {
         <SearchBox
           handleChange={this.handleChange}
           searchTerm={this.state.searchTerm}
-          placeHolder="Search Monsters"
+          placeHolder="Search Monsterss"
         />
         <CardList monsters={filteredList} />
       </div>
